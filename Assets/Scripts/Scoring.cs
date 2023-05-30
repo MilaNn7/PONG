@@ -19,6 +19,7 @@ public class Scoring : MonoBehaviour
         {
             BaseEventData eventData = new BaseEventData(EventSystem.current);
             scoreTrigger.Invoke(eventData);
+            audioSource.time = 1.5f;
             audioSource.Play();
         }
     }

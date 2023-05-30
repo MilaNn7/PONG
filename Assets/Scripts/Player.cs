@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : Move
 {
-    // Start is called before the first frame update
 
     private Vector2 direction;
 

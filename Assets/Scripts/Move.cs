@@ -7,8 +7,11 @@ public class Move : MonoBehaviour
     
     protected Rigidbody2D rb;
     public float speed = 5.0f;
+   
 
     
+   
+   
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -19,5 +22,6 @@ public class Move : MonoBehaviour
         rb.position = new Vector2(rb.position.x, 0.0f);
         rb.velocity = Vector2.zero;
     }
+    
 }
 
